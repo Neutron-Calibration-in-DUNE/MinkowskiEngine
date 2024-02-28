@@ -35,6 +35,9 @@
 #include <c10/cuda/CUDACachingAllocator.h>
 #include <torch/extension.h>
 #include <torch/script.h>
+#include <thrust/sort.h>
+#include <thrust/remove.h>
+#include <thrust/unique.h>
 
 namespace minkowski {
 

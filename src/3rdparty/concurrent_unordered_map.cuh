@@ -27,6 +27,8 @@
 
 #include <thrust/pair.h>
 #include <thrust/count.h>
+#include <thrust/device_vector.h>
+#include <thrust/execution_policy.h>
 
 #include <functional>
 #include <memory>
